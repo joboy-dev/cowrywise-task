@@ -15,7 +15,6 @@ class Settings(BaseSettings):
     ACCESS_TOKEN_EXPIRE_MINUTES: int = config("ACCESS_TOKEN_EXPIRE_MINUTES")
     JWT_REFRESH_EXPIRY: int = config("JWT_REFRESH_EXPIRY")
 
-
     # Database configurations
     DB_TYPE: str = config("DB_TYPE")
     
